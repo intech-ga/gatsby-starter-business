@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://www.fluidweb.ml/* https://www.fluidwebsites.ml/:splat 301!
+https://fluidweb.ml/* https://www.fluidwebsites.ml/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://fluidwebsites.netlify.com/* https://www.fluidwebsites.ml/:splat 301!
